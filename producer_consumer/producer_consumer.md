@@ -56,7 +56,7 @@ void consume() {
 
 >큐에 값을 넣고 빼는 코드를 포함하여 실행하면 에러가 발생하는 이유는,
 >
->producer와 consumer 사이에 <span style="color: red;">레이스 컨디션</span>이 발생하여 
+producer와 consumer 사이에 <span style="color: red;">레이스 컨디션</span>이 발생하여 
 >
 >큐에 아무것도 값이 남아있지 않았음에도 불구하고 값을 빼내려 했기 때문입니다.
 
